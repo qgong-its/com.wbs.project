@@ -1,0 +1,13 @@
+:root {
+  --clr-primary: #00b289;
+  --clr-accent: #f8db62;
+
+  --clr-gray-50: #f2faff;
+  --clr-gray-700: #4c4d5f;
+  --clr-gray--800: #1f2937;
+  --clr-gray-200: ddd;
+
+  --site-spacing-inline: 1rem;
+
+  --content-max-width: 75rem;
+}

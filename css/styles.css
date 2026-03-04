@@ -1,7 +1,13 @@
+/** HELPER CLASSES AND TOOLS */
+@import url("tools/variables.css");
+@import url("tools/helper.css");
+
 /** PAGE LAYOUT CONTAINER */
 @import url("layout/container.css");
 @import url("layout/page-header.css");
 @import url("layout/page-footer.css");
 
 /** COMPONENTS */
+
+/* Navigations */
 @import url("components/navigation/nav-main.css");

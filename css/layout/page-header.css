@@ -1,12 +1,25 @@
 .page-header {
-  background: #1a1a1a;
-  color: white;
-  padding: 1.5rem;
-  text-align: center;
+  --component-iconn-size: 2rem;
+  --component-gap: 2rem;
+
+  --clr-component-background: white;
+
+  background: var(--clr-component-background);
+  padding: 1.5rem 0;
 }
 
 .page-header__inner {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
+  align-items: center;
+  gap: var(--component-gap);
+
+  padding: 0 var(--site-spacing-inline);
+}
+
+.logo {
+  color: var(--clr-primary);
+
+  width: var(--component-iconn-size);
+  height: var(--component-iconn-size);
 }

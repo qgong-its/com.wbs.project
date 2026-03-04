@@ -7,12 +7,28 @@
   }
 
   a {
-    color: #61dafb;
+    position: relative;
+
+    color: var(--clr-gray-700);
     text-decoration: none;
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -3px;
+      left: 0px;
+      width: 0px;
+      height: 2px;
+      background: var(--clr-gray-700);
+      border-radius: 0.0675rem;
+      transition: width 0.25s;
+    }
   }
 
   a:hover,
   a:focus-visible {
-    text-decoration: underline;
+    &:after {
+      width: 100%;
+    }
   }
 }
