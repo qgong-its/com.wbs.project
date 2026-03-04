@@ -4,12 +4,12 @@
 
   --component-spacing-block: 1rem;
 
-  padding-block: var(--component-spacing-block);
+  padding-inline: var(--site-spacing-inline);
 
   background: var(--clr-component-background);
   color: var(--clr-component-text);
 }
 
 .page-footer__inner {
-  padding: 0 var(--site-spacing-inline);
+  padding-block: var(--component-spacing-block);
 }
