@@ -7,35 +7,38 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Project Title</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article>
-        <h2>Main Content Heading</h2>
-        <p>
-          Start your content development here. This area is perfect for your
-          primary information, articles, or application logic.
-        </p>
-      </article>
-      <aside>
-        <h3>Sidebar</h3>
-        <nav>
-          <p>Related Links:</p>
+    <header class="page-header">
+      <div class="page-header__inner">
+
+        <svg class="logo "class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"/>
+        </svg>
+
+        <nav class="nav-main">
           <ul>
-            <li><a href="#" style="color: #007bff">Documentation</a></li>
-            <li><a href="#" style="color: #007bff">Resources</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
-      </aside>
+      </div>
+    </header>
+    <main>
+      <section class="content">
+        <div class="content__inner">
+          <h2 class="title-2">Main Content Heading</h2>
+          <p>
+            Space for more Components.<br>
+            Each component is wrapped inside an section tag.
+          </p>
+      </div>
+      </article>
     </main>
-    <footer>&copy; 2026 My Portfolio. All rights reserved.</footer>
+    <footer class="page-footer">
+      <div class=""page-footer__inner">
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,12 @@
+.page-header {
+  background: #1a1a1a;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.page-header__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
