@@ -7,6 +7,10 @@
 @import url("layout/page-header.css");
 @import url("layout/page-footer.css");
 
+/** BASIC CONTENTS */
+
+@import url("components/typo.css");
+
 /** COMPONENTS */
 
 /* Navigations */
