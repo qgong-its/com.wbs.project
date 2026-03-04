@@ -1,0 +1,6 @@
+*.env
+dist/
+build/
+*.log
+.vscode/launch.json
+.vscode/settings.json
