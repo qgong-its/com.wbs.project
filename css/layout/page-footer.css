@@ -1,6 +1,15 @@
-.pagefooter {
-  background: #1a1a1a;
-  color: white;
-  padding: 1.5rem;
-  text-align: center;
+.page-footer {
+  --clr-component-background: var(--clr-gray--800);
+  --clr-component-text: white;
+
+  --component-spacing-block: 1rem;
+
+  padding-block: var(--component-spacing-block);
+
+  background: var(--clr-component-background);
+  color: var(--clr-component-text);
+}
+
+.page-footer__inner {
+  padding: 0 var(--site-spacing-inline);
 }
