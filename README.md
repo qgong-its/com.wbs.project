@@ -4,7 +4,7 @@ A simple semantic HTML/CSS website built as part of our bootcamp introduction pr
 
 The project demonstrates basic layout, semantic HTML structure, and collaboration using GitHub workflow.
 
-## ## Development Workflow
+Development Workflow
 
 The project was developed using a simple collaborative workflow:
 
@@ -21,7 +21,9 @@ https://qgong-its.github.io/com.wbs.project/index.html
 ## Features
 
 - Semantic HTML structure
-- CSS ?Flexbox/Grid? layout
+- Hybrid CSS Layout:
+  - Flex utilized for the navigation header and alignment of single-axis elements.
+  - Grid implemented for e.g. the "Why choose us" section to achieve a responsive x\*y feature grid as per the wireframe.
 - Responsive layout (optional)
 - Deployed via GitHub Pages
 
@@ -48,7 +50,7 @@ project
 ├── index.html
 ├── css/
 │   └── styles.css
-├── images/
+├── images
 └── README.md
 ```
 
