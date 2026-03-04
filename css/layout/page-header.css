@@ -1,11 +1,12 @@
 .page-header {
-  --component-iconn-size: 2rem;
+  --component-icon-size: 2rem;
   --component-gap: 2rem;
+  --component-spacing-block: 1rem;
 
   --clr-component-background: white;
 
   background: var(--clr-component-background);
-  padding: 1.5rem 0;
+  padding-inline: var(--site-spacing-inline);
 }
 
 .page-header__inner {
@@ -14,12 +15,12 @@
   align-items: center;
   gap: var(--component-gap);
 
-  padding: 0 var(--site-spacing-inline);
+  padding-block: var(--component-spacing-block);
 }
 
 .logo {
   color: var(--clr-primary);
 
-  width: var(--component-iconn-size);
-  height: var(--component-iconn-size);
+  width: var(--component-icon-size);
+  height: var(--component-icon-size);
 }
