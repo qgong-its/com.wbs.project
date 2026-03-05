@@ -9,31 +9,33 @@
   <body>
     <header class="page-header">
       <div class="page-header__inner content-width">
-        <div class="logo-slogan"">
-                  <svg
-          class="logo"
-          class="w-6 h-6 text-gray-800 dark:text-white"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          fill="none"
-          viewBox="0 0 24 24"
-        >
-          <path
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"
-          />
-        </svg>
-        inspired <span class="logo-slogan__highlight">THEME</span>
+        <div class="logo-slogan">
+          <svg
+            class="logo"
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"
+            />
+          </svg>
+          inspired <span class="logo-slogan__highlight">THEME</span>
         </div>
 
         <nav class="nav-main">
           <ul>
             <li><a href="#hero">Editors Choice</a></li>
+            <li><a href="#video-demo">Video Demo</a></li>
+            <li><a href="#features">Features</a></li>
             <li><a href="#trusted">Vertrauen</a></li>
             <li><a href="#pricing">Preise</a></li>
           </ul>
@@ -57,8 +59,57 @@
           <button>Continue</button>
         </div>
       </section>
+      <section id="video-demo" class="video-section content-width">
+        <h2>Check out our video</h2>
+        <div class="video-wrapper">
+          <video controls>
+            <source src="demo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+      <section id="features" class="features content-width">
+        <h2>Awesome apps features</h2>
+        <p class="section-intro">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+          mass.
+        </p>
+
+        <ul class="feature-list">
+          <li>
+            <figure>
+              <img src="icon1.svg" alt="" />
+              <figcaption>
+                <h3>Fast performance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="icon2.svg" alt="" />
+              <figcaption>
+                <h3>Cloud sync</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="icon3.svg" alt="" />
+              <figcaption>
+                <h3>Secure data</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
       <section id="trusted" class="trusted-by content-width">
-        <p class="section-label">Inspired <span class="highlight">THEME</span> wird auch genutzt von</p>
+        <p class="section-label">
+          Inspired <span class="highlight">THEME</span> wird auch genutzt von
+        </p>
 
         <ul class="company-logos">
           <li><img src="logo1.png" alt="Company 1" /></li>
@@ -232,53 +283,6 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="video-section">
-        <h2>Check out our video</h2>
-        <div class="video-wrapper">
-          <video controls>
-            <source src="demo.mp4" type="video/mp4" />
-          </video>
-        </div>
-      </section>
-      <section class="features">
-        <h2>Awesome apps features</h2>
-        <p class="section-intro">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
-          mass.
-        </p>
-
-        <ul class="feature-list">
-          <li>
-            <figure>
-              <img src="icon1.svg" alt="" />
-              <figcaption>
-                <h3>Fast performance</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <figure>
-              <img src="icon2.svg" alt="" />
-              <figcaption>
-                <h3>Cloud sync</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </figcaption>
-            </figure>
-          </li>
-
-          <li>
-            <figure>
-              <img src="icon3.svg" alt="" />
-              <figcaption>
-                <h3>Secure data</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
       </section>
     </main>
     <footer class="page-footer">
