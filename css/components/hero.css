@@ -14,13 +14,13 @@
   isolation: isolate;
   /* max-width: 1100px; */
   margin: 0 auto;
-  padding: 72px 0 40px;
+  padding: 72px 1.5rem 40px;
   background: var(--bg);
   border-radius: 24px;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 22px;
+  gap: var(--grid-gap);
 }
 
 /* background */
@@ -138,7 +138,7 @@
 
 .hero-right {
   position: relative;
-  overflow: hidden
+  overflow: hidden;
   border-color: rgba(20, 184, 166, 0.35);
 }
 
