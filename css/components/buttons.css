@@ -1,0 +1,43 @@
+/** basic button layout */
+.btn {
+  --component-border-width: 0.0675rem;
+  --component-border-radius: 0.5rem;
+  --component-padding: 0.5rem 1rem;
+
+  display: inline-flex;
+
+  border: var(--component-border-width) solid var(--clr-primary);
+  border-radius: var(--component-border-radius);
+  padding: var(--component-padding);
+}
+
+/** color variants */
+.btn-primary {
+  border-color: var(--clr-primary);
+  background-color: var(--clr-primary);
+  transition:
+    background-color 0.3s,
+    border-color 0.3s,
+    color 0.3s;
+
+  color: white;
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    background-color: var(--clr-gray-700);
+    border-color: var(--clr-gray-700);
+
+    cursor: pointer;
+  }
+}
+
+/** position variants*/
+.btn-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--grid-gap);
+}
+.btn--centered {
+  justify-content: center;
+}
