@@ -10,4 +10,6 @@
   --site-spacing-inline: 1rem;
 
   --content-max-width: 75rem;
+
+  --grid-gap: 1.5rem;
 }
