@@ -29,12 +29,6 @@ main {
 .content {
   line-height: 1.6;
   color: #333;
-}
 
-/* Responsive: Stack columns on mobile */
-@media (max-width: 768px) {
-  main {
-    grid-template-columns: 1fr;
-    padding: 1rem;
-  }
+  padding-inline: var(--site-spacing-inline);
 }
