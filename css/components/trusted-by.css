@@ -1,7 +1,7 @@
 /* ===== Trusted By Section ===== */
 .trusted-by {
-  max-width: 1100px;
-  margin: 36px auto 0;
+  /* max-width: 1100px;*/
+  margin: 2.5rem auto;
   padding: 40px 28px;
 
   background: #f6fbff;
