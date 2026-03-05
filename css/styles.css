@@ -15,3 +15,9 @@
 
 /* Navigations */
 @import url("components/navigation/nav-main.css");
+
+/* hero */
+@import url("components/hero.css");
+
+/* trusted by*/
+@import url("components/trusted-by.css");
