@@ -14,8 +14,6 @@
 @import url("layout/page-footer.css");
 
 /** BASIC CONTENTS */
-
-@import url("components/typo.css");
 @import url("components/pricing.css");
 @import url("components/currency-box.css");
 /** COMPONENTS */
