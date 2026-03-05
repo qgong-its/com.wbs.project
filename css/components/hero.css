@@ -12,9 +12,9 @@
 
   position: relative;
   isolation: isolate;
-  max-width: 1100px;
+  /* max-width: 1100px; */
   margin: 0 auto;
-  padding: 72px 28px 40px;
+  padding: 72px 0 40px;
   background: var(--bg);
   border-radius: 24px;
 
@@ -138,13 +138,14 @@
 
 .hero-right {
   position: relative;
+  overflow: hidden
   border-color: rgba(20, 184, 166, 0.35);
 }
 
 .hero-right::before {
   content: "MOST POPULAR";
   position: absolute;
-  top: 18px;
+  top: 40px;
   right: -44px;
   transform: rotate(45deg);
   padding: 8px 52px;
