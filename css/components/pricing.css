@@ -1,0 +1,17 @@
+.pricing-section {
+  --component-gap: var(--grid-gap);
+}
+
+.pricing-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: var(--component-gap);
+}
+
+.pricing-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
