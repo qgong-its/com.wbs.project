@@ -1,0 +1,35 @@
+.currency-box {
+  display: flex;
+  gap: 0.5rem;
+
+  margin-block-start: 1rem;
+  padding-block-end: 1rem;
+
+  border-bottom: 0.0675rem solid var(--clr-primary);
+}
+.currency-box__symbol {
+  align-self: flex-start;
+
+  margin-block-start: 0.125rem;
+
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.currency-box__custom,
+.currency-box__charge {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.currency-box__custom {
+  color: transparent;
+}
+
+.currency-box__time {
+  align-self: flex-end;
+
+  font-size: 1.25rem;
+  line-height: 1;
+}

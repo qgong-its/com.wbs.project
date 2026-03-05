@@ -1,17 +1,33 @@
 .pricing-section {
   --component-gap: var(--grid-gap);
+
+  padding-block: 2rem;
+
+  .checkmark-list:has(+ .btn-wrapper) {
+    margin-block-end: 4rem;
+  }
+
+  .btn-wrapper {
+    margin-block-start: auto;
+  }
 }
 
 .pricing-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr));
   gap: var(--component-gap);
+
+  margin-block-start: 1rem;
 }
 
 .pricing-item {
   background-color: #f9f9f9;
   border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
-  text-align: center;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+
+  border: 1px solid rgba(2, 4, 69, 0.15);
+  border-radius: 4px;
+  background-color: #fbfcff;
+  box-shadow: 0 0 68px 0 rgba(2, 4, 69, 0.08);
 }
