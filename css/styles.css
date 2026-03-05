@@ -28,3 +28,6 @@
 
 /* trusted by*/
 @import url("components/trusted-by.css");
+
+/* our features*/
+@import url("components/our-features.css");
