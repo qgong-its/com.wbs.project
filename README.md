@@ -2,7 +2,7 @@
 
 ![Status: Archived](https://img.shields.io/badge/Status-Archived-red) 
 
-**Project Completed & Archived**
+**Notice: Project Completed & Archived**
 
 A simple semantic HTML/CSS website built as part of our bootcamp introduction project.
 
