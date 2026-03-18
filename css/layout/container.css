@@ -4,6 +4,18 @@
   margin: 0;
 }
 
+:target {
+  scroll-margin: 4rem 0 0 0;
+
+  @media screen and (max-width: 768px) {
+    scroll-margin: 8rem 0 0 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family:
@@ -13,6 +25,8 @@ body {
   min-height: 100vh;
 
   background: var(--clr-gray-200);
+
+  padding-top: 7.5rem;
 }
 
 main {

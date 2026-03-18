@@ -9,53 +9,107 @@
   <body>
     <header class="page-header">
       <div class="page-header__inner content-width">
-        <svg
-          class="logo"
-          class="w-6 h-6 text-gray-800 dark:text-white"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          fill="none"
-          viewBox="0 0 24 24"
-        >
-          <path
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"
-          />
-        </svg>
+        <div class="logo-slogan">
+          <svg
+            class="logo"
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"
+            />
+          </svg>
+          inspired <span class="logo-slogan__highlight">THEME</span>
+        </div>
 
         <nav class="nav-main">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#hero">Editors Choice</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#video-demo">Video Demo</a></li>
+            <li><a href="#trusted">Vertrauen</a></li>
             <li><a href="#pricing">Preise</a></li>
-            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section id="hero" class="hero content-width">
         <span class="tag">#1 Editors Choice App of 2020</span>
         <div class="hero-left">
-          <h2>Some catchy line</h2>
+          <h2>Eine einnehmende Überschrift</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
             amet mass.
           </p>
-          <button>Try for free</button>
+          <button>Jetzt testen</button>
         </div>
         <div class="hero-right">
-          <h2>Definitely a demo</h2>
+          <h2>Eine echte Demo</h2>
           <p>WBS Coding School ipsum dolor sit.</p>
           <button>Continue</button>
         </div>
       </section>
-      <section class="trusted-by">
-        <p class="section-label">Trusted by companies like</p>
+      <section id="features" class="features content-width">
+        <h2>Awesome apps features</h2>
+        <p class="section-intro">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+          mass.
+        </p>
+
+        <ul class="feature-list">
+          <li>
+            <figure>
+              <img src="icon1.svg" alt="" />
+              <figcaption>
+                <h3>Fast performance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="icon2.svg" alt="" />
+              <figcaption>
+                <h3>Cloud sync</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="icon3.svg" alt="" />
+              <figcaption>
+                <h3>Secure data</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+      <section id="video-demo" class="video-section content-width">
+        <h2>Check out our video</h2>
+        <div class="video-wrapper">
+          <video controls>
+            <source src="demo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+      <section id="trusted" class="trusted-by content-width">
+        <p class="section-label">
+          Inspired <span class="highlight">THEME</span> wird auch genutzt von
+        </p>
 
         <ul class="company-logos">
           <li><img src="logo1.png" alt="Company 1" /></li>
@@ -65,9 +119,9 @@
           <li><img src="logo5.png" alt="Company 5" /></li>
         </ul>
       </section>
-      <section class="content">
+      <section class="content content-width content-space-block-4">
         <div class="content__inner content-width">
-          <h2 class="title-2">Main Content Heading</h2>
+          <h2 class="title-2">Ein tolles Theme</h2>
           <p>
             Space for more Components.<br />
             Each component is wrapped inside an section tag.
@@ -230,6 +284,7 @@
           </div>
         </div>
       </section>
+<<<<<<< HEAD
       <section class="video-section">
         <h2>Check out our video</h2>
         <div class="video-wrapper">
@@ -277,10 +332,52 @@
           </li>
         </ul>
       </section>
+||||||| e0b3f14
+      <section class="features">
+        <h2>Awesome apps features</h2>
+        <p class="section-intro">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+          mass.
+        </p>
+
+        <ul class="feature-list">
+          <li>
+            <figure>
+              <img src="icon1.svg" alt="" />
+              <figcaption>
+                <h3>Fast performance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="icon2.svg" alt="" />
+              <figcaption>
+                <h3>Cloud sync</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="icon3.svg" alt="" />
+              <figcaption>
+                <h3>Secure data</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+=======
+>>>>>>> main
     </main>
     <footer class="page-footer">
       <div class="page-footer__inner content-width">
-        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        <p class="text--center">inspired THEME</p>
       </div>
     </footer>
   </body>

@@ -1,4 +1,8 @@
-# Project Name
+# Figma to website
+
+![Status: Archived](https://img.shields.io/badge/Status-Archived-red) 
+
+**Notice: Project Completed & Archived**
 
 A simple semantic HTML/CSS website built as part of our bootcamp introduction project.
 

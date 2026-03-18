@@ -6,3 +6,11 @@
 .text--center {
   text-align: center;
 }
+
+.content-space-block-4 {
+  margin-block: 4rem;
+}
+
+.highlight {
+  color: var(--clr-primary);
+}
