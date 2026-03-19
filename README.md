@@ -20,7 +20,7 @@ The project was developed using a simple collaborative workflow:
 
 ## Live Demo
 
-https://qgong-its.github.io/com.wbs.project/index.html
+https://qgong-its.github.io/com.wbs.figma-to-website/index.html
 
 ## Features
 
